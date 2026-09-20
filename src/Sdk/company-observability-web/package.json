@@ -1,0 +1,22 @@
+{
+  "name": "company-observability-web",
+  "version": "1.0.0",
+  "description": "Frontend Observability SDK",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@opentelemetry/api": "^1.8.0",
+    "@opentelemetry/auto-instrumentations-web": "^0.38.0",
+    "@opentelemetry/context-zone": "^1.24.0",
+    "@opentelemetry/core": "^1.24.0",
+    "@opentelemetry/exporter-trace-otlp-http": "^0.51.0",
+    "@opentelemetry/instrumentation": "^0.51.0",
+    "@opentelemetry/sdk-trace-web": "^1.24.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  }
+}
